@@ -50,7 +50,7 @@ export default function Home() {
   }
 
   const readCachedData = () =>{
-    caches.match('/data.json').then(r => r.json()).then(console.log)
+    caches.match('/data_1.json').then(r => r.json()).then(console.log)
   }
 
   return (
